@@ -1,0 +1,21 @@
+.container-fluid{
+width:300px;
+padding:30px;
+justify-content:center;
+align-items:center;
+margin:auto;
+}
+
+.form-login{
+    width:300px;
+    margin:auto;
+    align-items:center;
+    justify-content: center;
+    border:2px solid darkcyan;
+    box-shadow:2px 2px 3px darkcyan;
+    border-radius: 10px;
+}
+button{
+    background-color:darkcyan;
+    color:white;
+}
