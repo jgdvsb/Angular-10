@@ -1,0 +1,13 @@
+<div class="container">
+    <h2>Product Details</h2>
+    <dl>
+        <dt>Name</dt>
+        <dd> {{product.Name}}</dd>
+        <dd><input type="text" value="{{product.Name}}"></dd>
+        <dt>Price</dt>
+        <dd innerHTML="{{product.Price}}"></dd>
+      <!--  <button [disabled]="disableButton">Submit</button>      here disabled is property and button changes dynamically -->
+       <button disabled="{{disableButton}}">Submit</button>  <!-- here disabled is attribute and the value changes on TS  but on HTML does not has an impact-->
+    </dl>
+</div>
+
